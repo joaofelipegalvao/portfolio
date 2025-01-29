@@ -39,7 +39,7 @@ Durante o desenvolvimento deste projeto, aprendi e pratiquei os seguintes concei
 
 1. Clone o repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/meu-portfolio.git
+   git clone https://github.com/joaofelipegalvao/portfolio.git
    ```
 2. Abra o arquivo `index.html` no navegador.  
 
