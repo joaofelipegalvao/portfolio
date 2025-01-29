@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
+
+:root {
+  --cor-primaria: #f6f6f6;
+  --cor-segundaria: #414756;
+  --cor-hover: #8a94a8;
+
+  --font-primaria: "Krona One", sans-serif;
+  --font-segundaria: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* height: 100vh; */
+  box-sizing: border-box;
+  background-image: radial-gradient(
+      circle at 25% 54%,
+      rgba(18, 18, 18, 0.06) 0%,
+      rgba(18, 18, 18, 0.06) 22%,
+      transparent 22%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 67% 98%,
+      rgba(223, 223, 223, 0.06) 0%,
+      rgba(223, 223, 223, 0.06) 52%,
+      transparent 52%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 7% 92%,
+      rgba(169, 169, 169, 0.06) 0%,
+      rgba(169, 169, 169, 0.06) 52%,
+      transparent 52%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 46% 37%,
+      rgba(187, 187, 187, 0.06) 0%,
+      rgba(187, 187, 187, 0.06) 47%,
+      transparent 47%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 38% 35%,
+      rgba(57, 57, 57, 0.06) 0%,
+      rgba(57, 57, 57, 0.06) 99%,
+      transparent 99%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 46% 86%,
+      rgba(100, 100, 100, 0.06) 0%,
+      rgba(100, 100, 100, 0.06) 60%,
+      transparent 60%,
+      transparent 100%
+    ),
+    linear-gradient(360deg, rgb(101, 153, 238), rgb(142, 119, 207));
+  color: var(--cor-primaria);
+}
+.cabecalho {
+  padding: 2% 0% 0% 15%;
+}
+.cabecalho__menu {
+  display: flex;
+  gap: 80px;
+}
+
+.cabecalho__menu__link {
+  font-family: var(--font-segundaria);
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--cor-segundaria);
+  text-decoration: none;
+}
+
+.apresentacao {
+  padding: 3.5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 82px;
+}
+.apresentacao__conteudo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.apresentacao__conteudo__titulo {
+  font-size: 2.25rem;
+  font-family: var(--font-primaria);
+}
+.titulo-destaque {
+  color: var(--cor-segundaria);
+}
+.apresentacao__conteudo__paragrafo {
+  font-size: 1.5rem;
+  font-family: var(--font-segundaria);
+}
+.apresentacao__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+  font-family: var(--font-primaria);
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.apresentacao__links__navegacao {
+  /* background-color: #414756; */
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 50%;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  padding: 21.5px 0;
+  text-decoration: none;
+  border: 3px solid var(--cor-segundaria);
+  color: var(--cor-primaria);
+  /* color: #6599ee; */
+  font-family: var(--font-segundaria);
+  /* box-shadow: */
+  /*   inset 22px 22px 44px #2f343f, */
+  /*   inset -22px -22px 44px #535a6d; */
+}
+
+.apresentacao__links__navegacao:hover {
+  background-color: var(--cor-hover);
+}
+
+.apresentacao__imagem {
+  width: 50%;
+}
+
+.rodape {
+  padding: 24px;
+  text-align: center;
+  color: var(--cor-primaria);
+  background-color: var(--cor-segundaria);
+  font-family: var(--font-segundaria);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .cabecalho {
+    padding: 10%;
+  }
+  .cabecalho__menu {
+    justify-content: center;
+  }
+  .apresentacao {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+  .apresentacao__conteudo {
+    width: auto;
+  }
+}
