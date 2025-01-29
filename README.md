@@ -14,7 +14,7 @@ O projeto está organizado da seguinte forma:
 ```
 📁 portfolio  
  ┣ 📁 assets (imagens, ícones, etc.)  
- ┣ 📁 css (arquivos de estilo)  
+ ┣ 📁 style (arquivos de estilo)  
  ┣ 📜 index.html
  ┣ 📜 about.html
  ┗ 📜 README.md  
