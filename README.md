@@ -16,7 +16,7 @@ O projeto está organizado da seguinte forma:
  ┣ 📁 assets (imagens, ícones, etc.)  
  ┣ 📁 css (arquivos de estilo)  
  ┣ 📜 index.html
-┣ 📜 about.html
+ ┣ 📜 about.html
  ┗ 📜 README.md  
 ```
 
